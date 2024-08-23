@@ -1,0 +1,114 @@
+MERN para equipos de 2 integrantes:
+Realizar una API y un sitio web (E-Commerce) que tenga login y register, este debe estar validado además de permitir
+la recuperacion contraseña mediante 2 preguntas de seguridad.
+
+Para el registro se debe proporcionar:
+- Nombre (Requerido)
+- Apellido (Requerido)
+- Email (Requerido)
+- Nacimiento (Requerido, en formato DD-MM-AAAA)
+- Contraseña (Requerido y debe contener: Minusculas, Mayusculas, *.,-_ y longitud de 8 caracteres como minimo)
+- Confirmacion de contraseña (Requerido, deben coincidir las contraseñas de ambos inputs)
+- Pais (Requerido)
+- Ciudad (Debe existir el campo pero no es requerido)
+- Telefono: (Debe existir el campo pero no es requerido)
+- Pregunta de seguridad 1 (Para la recuperacion de contraseña)
+- Pregunta de seguridad 2 (Para la recuperacion de contraseña)
+
+Este E-Commerce debe manejar dos roles, usuario y administrador.
+
+Un administrador podrá acceder a un panel de administración, mientras que el usuario normal no.
+
+A traves del panel de administración se debera poder agregar productos, modificar productos, borrar productos.
+
+El esquema de producto debe ser.
+- ID (Puede ser _id de MongoDB o uno personalizado)
+- Imagen ( URL - Requerido)
+- Nombre (Requerido)
+- Descripción (Requerido)
+- Precio (Requerido)
+- Precio con descuento (Opcional, es decir en caso de existir algun descuento, de lo contrario debe ser 0)
+- Stock disponible (Requerido)
+
+Debes crear pagina principal, página de productos con páginación, y página de un solo producto donde se 
+muestren los detalles del mismo, además de un carrito que debe ser funcional.
+
+La pagina de productos debe tener una barra busqueda funcional
+
+Al concretar la compra el carrito debe deducir de la base de dato el total de productos y mostrar una factura con los detalles de la compra.
+
+La página debe ser visualmente atractiva y responsive.
+
+
+
+
+
+
+
+
+
+
+
+
+MERN para realizar individualmente:
+Realizar un sistema administrativo (Que contenga una API) con una interfaz sencilla y responsive, la cual 
+permita crear productos, modificar productos, eliminar productos, visualizar todos los productos y buscar un producto.
+
+Un producto contiene:
+- ID
+- Nombre
+- Precio
+- Descripcion
+- Stock Disponible
+
+Debe contener una sección de inventario donde puedas ver la disponibilidad de todos los producto
+
+Debe contener una seccion para poder ver los detalles de un producto individual
+
+Además debe tener un sistema de login, donde solo debe haber un solo usuario que pueda acceder 
+(Admin - registrado directamente en la BD) para ver este sistema, y cada vez que se registre un 
+producto se debe enviar un correo con la información de dicho producto al dueño de la empresa (didacusdev@gmail.com)
+
+
+
+
+
+
+
+
+
+
+
+PHP y MySQL para realizar individualmente:
+Realizar un sistema administrativo con una interfaz sencilla y responsive, la cual permita crear productos, 
+modificar productos, eliminar productos, visualizar todos los productos y buscar un producto.
+
+Un producto contiene:
+- ID
+- Nombre
+- Precio
+- Descripcion
+- Stock Disponible
+
+Debe contener una sección de inventario donde puedas ver la disponibilidad de todos los producto con paginacion
+
+Debe contener una seccion para poder ver los detalles de un producto individual
+
+Cada Pagina debe manejar COOKIES para mostrar la informacion del nombre del usuario en el navbar
+
+Además debe tener un sistema de login, donde solo debe haber un solo usuario que pueda acceder 
+(Admin - registrado directamente en la BD) para ver este sistema, y cada vez que se registre un producto se debe 
+enviar un correo con la información de dicho producto al dueño de la empresa (didacusdev@gmail.com)
+
+
+
+
+
+
+
+
+
+
+Fecha de inicio: 24/Julio/2023
+Fecha de Entrega: 21/Agosto/2023
+Graduacion (Acto): 25/Agosto/2023 
